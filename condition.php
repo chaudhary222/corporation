@@ -35,5 +35,22 @@ break;
 	$load = 'includes/datastat.php';
 		# code...
 		break; 
+
+		case 'slider':
+	if($action == 'add'){
+
+		$load = 'includes/add_slider.php';
+	}elseif ($action == 'view') {
+		$load = 'includes/view_slider.php';
+	}elseif($action == 'update'){
+		$load = 'includes/update_slider.php';
+	}else{
+		$action = 'includes/delete_slider.php';
+	}
+break;
+	default:
+	$load = 'includes/datastat.php';
+		# code...
+		break; 
 }
 ?>

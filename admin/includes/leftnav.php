@@ -48,6 +48,18 @@
           <li><a href="index.php?page=team&action=view"><i class="fa fa-circle-o"></i>View Team</a></li>
           </ul>
         </li>
+        <li class="active treeview">
+          <a href="#">
+            <i class="fa fa-dashboard"></i> <span>Slider</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+           <li><a href="index.php?page=slider&action=add"><i class="fa fa-circle-o"></i>Add Slider</a></li>
+          <li><a href="index.php?page=slider&action=view"><i class="fa fa-circle-o"></i>View Slider</a></li>
+          </ul>
+        </li>
 
       </ul>
     </section>
